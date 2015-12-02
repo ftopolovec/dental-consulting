@@ -1,0 +1,137 @@
+
+.scrollToTop{
+	background-color: #59abb3;
+}
+.scrollToTop:hover,.scrollToTop:focus{
+  background-color: #fff;
+  color: #59abb3;
+  border: 1px solid #59abb3;
+}
+.navbar-brand > span {
+  color: #59abb3;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+  color: #59abb3;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #59abb3;
+}
+.slider_btn:hover,.slider_btn:focus{
+	border-color:#59abb3;
+	color: #59abb3;
+}
+.slides-navigation a::before,
+.slides-navigation a::after,
+.slides-navigation .icon-wrap::before,
+.slides-navigation .icon-wrap::after {
+	background: #59abb3;
+}
+.slides-pagination a {
+  border: 2px solid #59abb3;
+}
+.heading h2 {
+  border-bottom: 11px solid #59abb3;
+}
+.panel-title a:hover{
+	color: #59abb3;		
+}
+.panel-title a span{
+  color: #59abb3;		
+}
+.service_icon{
+	background-color: #59abb3;
+}
+.single_service:hover .service_icon{	
+	color: #59abb3;
+	border: 2px solid #59abb3;
+	background-color: #fff;
+}
+.single_service:hover .service_title{
+	color: #59abb3;
+}
+.single_service > .service_title:after {
+  background-color: #59abb3;
+}
+.heading h3 {
+  border-bottom: 5px solid #5bacb4;
+}
+.fa-2x {
+  color: #59abb3;
+}
+.single_team span {
+  color: #59abb3;
+}
+.team_social a:hover,.team_social a:focus{
+	background-color: #59abb3;
+}
+.slick-prev, .slick-next {
+  background-color: #59abb3;
+}
+.single_price .price {
+  background-color: #59abb3; 
+}
+.price_btn {
+  background-color: #59abb3;
+  border: 1px solid #59abb3;
+}
+.price_btn:hover{
+	color: #59abb3 !important;
+}
+.business_price {
+  background-color: #59abb3 !important;
+}
+.business_price .price_btn{	
+	color: #59abb3 !important;
+}
+.post_commentbox a:hover, .post_commentbox span:hover{
+	color: #59abb3;
+}
+.read_more{
+	color: #59abb3;	
+}
+.read_more:hover,.read_more:focus{
+	border-bottom: 2px solid #59abb3;
+}
+.testi_media .media-body span {
+  color: #59abb3;
+}
+.testimonial_slider .slick-dots li.slick-active button{
+  background: none repeat scroll 0 0 #59abb3;  
+}
+.submit_btn {
+  background-color: #59abb3;
+}
+.submit_btn:hover{
+	color: #59abb3;
+	border-color: #59abb3;
+}
+.form-control:focus {
+  border-color: #59abb3;
+}
+.wagwep-container ul#portfolio-filter a:hover{
+  background-color: #59abb3;
+}
+.wagwep-container ul#portfolio-filter li.current a {
+  background:#59abb3;  
+}
+.single_contact_feaured > i {
+  color: #59abb3;
+}
+.subscr_btn {
+  background-color: #59abb3;
+}
+.footer_left > p a {
+  color: #59abb3;
+  font-weight: bold;
+}
+.social_nav li a:hover{
+  color: #59abb3;
+  border-color: #59abb3; 
+}
+.panel-default .in{
+  border-color: #59abb3;
+  border-left: 5px solid #59abb3;
+}
+.about_slider .slick-dots li.slick-active button:before {
+  color: #59abb3;
+}
