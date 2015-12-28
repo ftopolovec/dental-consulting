@@ -1,3 +1,41 @@
+dc_content_cms_user:
+    resource: "@dcContentBundle/Resources/config/routing/user.yml"
+    prefix:   /cms/user
+
+dc_content_cms_category:
+    resource: "@dcContentBundle/Resources/config/routing/category.yml"
+    prefix:   /cms/category
+
+dc_content_cms_blog:
+    resource: "@dcContentBundle/Resources/config/routing/blog.yml"
+    prefix:   /cms/blog
+
+dc_content_cms_course:
+        resource: "@dcContentBundle/Resources/config/routing/course.yml"
+        prefix:   /cms/course
+
 dc_content_homepage:
     path:     /
+    defaults: { _controller: dcContentBundle:Default:index }
+
+display:
+    path: /display/{id}
+    defaults: { _controller: dcContentBundle:Default:display }
+
+displaycourse:
+    path: /displaycourse/{id}
+    defaults: { _controller: dcContentBundle:Default:displaycourse }
+
+login:
+    path: /login
+    defaults: { _controller: dcContentBundle:Security:login }
+
+login_check:
+    path: /login_check
+
+logout:
+    pattern: /logout
+
+kontakt_forma:
+    path: /kontakt_forma
     defaults: { _controller: dcContentBundle:Default:index }

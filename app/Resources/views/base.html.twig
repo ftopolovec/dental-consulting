@@ -87,6 +87,10 @@
                         <li><a href="#team">Ponuda tečajeva</a></li>
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Kontakt</a></li>
+                        {% if is_granted ('ROLE_USER') %}
+                            <li><a href="{{ path('cms_blog_index') }}">CMS</a></li>
+                            <li><a href="{{ path('logout') }}">ODJAVA</a></li>
+                        {% endif %}
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -108,10 +112,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="footer_right">
                         <ul class="social_nav">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/dental.consulting.vz/?fref=ts"><i class="fa fa-facebook"></i></a></li>
                         </ul>
                     </div>
                 </div>

@@ -73,6 +73,33 @@ img{
  border:none;
 }
 
+.blog-img {
+	margin-right:10px;
+	border: 3px solid #59abb3;
+}
+
+.left-box {
+	border-right: 2px solid #59abb3;
+}
+
+.otherblogs {margin-top:20px;}
+.otherblogs li {
+	margin-bottom:30px;
+	background: #59abb3;
+	padding:5px;
+	color:#fff;
+	transition: all 0.3s ease;
+	border: 0 solid #fff;
+}
+
+.otherblogs li:hover {
+	margin-left:-15px;
+}
+
+.otherblogs a{
+	text-decoration: none;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -1277,7 +1304,7 @@ textarea .form-control {
 }
 
 #contactFeature{
-	background-image: url("img/contact-feature-bg.jpg");
+	background-image: url("img/1000x250.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;	
 	position: relative;

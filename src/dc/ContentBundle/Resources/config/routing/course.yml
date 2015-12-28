@@ -1,0 +1,24 @@
+cms_course_index:
+    path:     /
+    defaults: { _controller: "dcContentBundle:Course:index" }
+    methods:  GET
+
+cms_course_show:
+    path:     /{id}/show
+    defaults: { _controller: "dcContentBundle:Course:show" }
+    methods:  GET
+
+cms_course_new:
+    path:     /new
+    defaults: { _controller: "dcContentBundle:Course:new" }
+    methods:  [GET, POST]
+
+cms_course_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "dcContentBundle:Course:edit" }
+    methods:  [GET, POST]
+
+cms_course_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "dcContentBundle:Course:delete" }
+    methods:  DELETE

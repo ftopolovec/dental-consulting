@@ -2,6 +2,9 @@ dc_content:
     resource: "@dcContentBundle/Resources/config/routing.yml"
     prefix:   /
 
+elfinder:
+    resource: "@FMElfinderBundle/Resources/config/routing.yml"
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
